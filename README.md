@@ -10,8 +10,10 @@ Made a neural network with tensorflow, and using tensorflow lite.
 
 <br> 😓 _️**Sorry for my bad English, it's not my native language. I might do an English translation if many of you ask for it. The actual version is in French, but it's not very important to understand the code**_ 😓 <br>
 
+https://github.com/enorart/hand-gesture-recognition-LSF/assets/135878234/ee9ab4e6-2a5e-443c-8be2-ed58c062d536
 
 This repository contains the following contents.
+
 * The main program (main.py)
 * Hand sign recognition model (TFLite)
 * Learning data (CSV) for hand sign recognition and notebook for learning
