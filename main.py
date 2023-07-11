@@ -97,7 +97,7 @@ def logging_csv(number,landmarks_list,mode):
         pass
     if mode==1 and number>=0:       #vérification, ne pas enregistrer si le numéro de label est négatif, cad si on a pas appupyé sur p
         print("ecriture du dataset")
-        csv_path="C:\Dossier Enora\Travail\VS Code\Projet LSF\model\dataset.csv"
+        csv_path="/model/dataset.csv"
         with open(csv_path,'a',newline='') as f:
             writer=csv.writer(f)
             writer.writerow([number, *landmarks_list])
@@ -171,7 +171,7 @@ def main():
     keypoint_classifier=classifier()
 
     #lecture des labels (permet de relier l'id du signe au véritable nom du signe (sorte de traduction))
-    with open("C:\Dossier Enora\Travail\VS Code\Projet LSF\model\label.csv",encoding="utf-8") as f:
+    with open("/model/label.csv",encoding="utf-8") as f:
         keypoint_classification_label=csv.reader(f)
         #on met sous forme d'une liste
         keypoint_classification_label=[ 
