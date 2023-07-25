@@ -25,6 +25,8 @@ This repository contains the following contents.
 * scikit-learn 0.23.2 or Later
 * Numpy 1.24.2 or Later
 
+You can do this command : <pre>pip install -r requirements.txt</pre> to install the libraries more easily 
+
 # Demo 
 You need to run the _**main.py**_ file in your Python environment (for example VScode, Pycharm, Spyder...)
 
