@@ -4,7 +4,7 @@ import tensorflow as tf
 class classifier(object):
     def __init__(
             self,
-            model_path='/model/classification.tflite',
+            model_path='.\model\classification.tflite',
             num_threads=1,
     ):
         self.interpreter = tf.lite.Interpreter(model_path=model_path, num_threads=num_threads)
